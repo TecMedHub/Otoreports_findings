@@ -52,12 +52,19 @@ Cada hallazgo se identifica por su **key** (ej: `perforation_central`, `cae_ceru
    ```json
    {
      "contributors": {
-       "perforation_central": "Dr. Juan Pérez",
-       "cae_cerumen_impacted": "Dra. María López"
+       "perforation_central": [
+         { "file": "perforation_central.webp", "name": "Dr. Juan Pérez" }
+       ],
+       "cae_cerumen_impacted": [
+         { "file": "cae_cerumen_impacted.webp", "name": "Dra. María López" },
+         { "file": "cae_cerumen_impacted_2.webp", "name": "Dr. Carlos Soto" }
+       ]
      }
    }
    ```
-6. Commit y push
+   > **Formato**: Cada key mapea a un array de objetos `{ file, name }`. Si un hallazgo tiene múltiples imágenes de distintos colaboradores, se agregan como entradas adicionales al array. El formato legacy (string) sigue siendo soportado pero se recomienda migrar al nuevo formato.
+6. **Alternativa: Paquete desde OtoReport** — En la Biblioteca de Hallazgos de OtoReport, selecciona "Contribuir" en cualquier tarjeta para generar un paquete `.zip` con la imagen anotada y metadatos. Envíalo al equipo de TecMedHub por Instagram o GitHub.
+7. Commit y push
 
 > **Importante**: Tu nombre aparecerá en la Biblioteca de Hallazgos de OtoReport como crédito por tu contribución.
 

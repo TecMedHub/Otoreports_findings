@@ -2,7 +2,7 @@
   "version": "1.1.0",
   "description": "Índice de hallazgos otoscópicos para OtoReport",
   "contributors": {
-    "_comment": "Mapa de key de hallazgo → nombre del colaborador que aportó la imagen. Si un hallazgo no tiene imagen, no aparece aquí."
+    "_comment": "Mapa de key de hallazgo → array de { file, name }. Formato legacy (string) también es soportado."
   },
   "findings": [
     { "key": "normal", "category": "membrane" },
