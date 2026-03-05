@@ -1,11 +1,14 @@
-{
-    "name": "Visual Earpick",
-    "comments": {
-      "es": "Otoscopio digital inalámbrico con cámara HD. Buena resolución para uso clínico ambulatorio.",
-      "en": "Wireless digital otoscope with HD camera. Good resolution for outpatient clinical use."
-    },
-    "price": "~USD 10",
-    "link": "https://www.aliexpress.com",
-    "image":
+  [                                                                                                                 
+    {                                                                                                               
+      "name": "Visual Earpick",                                                                                     
+      "comments": {                                                                                                 
+        "es": "Otoscopio digital inalámbrico con cámara HD. Buena resolución para uso clínico ambulatorio.",
+        "en": "Wireless digital otoscope with HD camera. Good resolution for outpatient clinical use."
+      },
+      "price": "~USD 10",
+      "link": "https://www.aliexpress.com",
+      "image":
   "https://raw.githubusercontent.com/TecMedHub/Otoreports_findings/main/images/equipment/visual_earpick.jpg"
-  }
+    }
+  ]
+
