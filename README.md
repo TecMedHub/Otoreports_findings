@@ -48,7 +48,18 @@ Cada hallazgo se identifica por su **key** (ej: `perforation_central`, `cae_ceru
    ffmpeg -i input.jpg -vf scale=800:600 -quality 80 img/{key}.webp
    ```
 4. Verificar que el nombre coincida exactamente con el `key` del hallazgo
-5. Commit y push
+5. **Registrar tu nombre** en `json/index.json` dentro del campo `contributors`:
+   ```json
+   {
+     "contributors": {
+       "perforation_central": "Dr. Juan Pérez",
+       "cae_cerumen_impacted": "Dra. María López"
+     }
+   }
+   ```
+6. Commit y push
+
+> **Importante**: Tu nombre aparecerá en la Biblioteca de Hallazgos de OtoReport como crédito por tu contribución.
 
 ## JSON de marcas y símbolos (`json/`)
 
