@@ -2,6 +2,9 @@
   "version": "1.1.0",
   "description": "Índice de hallazgos otoscópicos para OtoReport",
   "contributors": {
+      "normal": [
+      { "file": "normal.jpg", "name": "TM. ORL. Vanessa Uribe" }
+    ],
     "_comment": "Mapa de key de hallazgo → array de { file, name }. Formato legacy (string) también es soportado."
   },
   "findings": [
